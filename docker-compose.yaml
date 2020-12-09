@@ -38,8 +38,9 @@ services:
     - "6379:6379"
 
   stedi:
-    image:
-    ports:
+    image: scmurdock/stedi
+    ports: 
+    - "4567:4567"
 
     environment:
 
